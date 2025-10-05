@@ -49,3 +49,12 @@ Session.vim
 
 # Visual Studio
 .vs
+
+#Do not ignore verse codes
+!/Scripts/**
+!/Scripts/**/*.verse
+
+!/Verse/**
+!/Verse/**/*.verse
+!/*.verse
+
