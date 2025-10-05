@@ -19,6 +19,17 @@
 !/Content/**/*.uasset
 !/Content/**/*.umap
 
+#Do not ignore verse codes
+!/Scripts/**
+!/Scripts/**/*.verse
+
+!/Verse/**
+!/Verse/**/*.verse
+!/*.verse
+!**/*.verse
+
+
+
 # Allow any files from /RawContent dir.
 # Any file in /RawContent dir will be managed by git lfs.
 !/RawContent/**/*
@@ -50,11 +61,4 @@ Session.vim
 # Visual Studio
 .vs
 
-#Do not ignore verse codes
-!/Scripts/**
-!/Scripts/**/*.verse
-
-!/Verse/**
-!/Verse/**/*.verse
-!/*.verse
 
